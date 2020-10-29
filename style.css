@@ -163,3 +163,11 @@ small{
 .testimonial .col-3:hover {
     transform:translateY(-10px);
 }
+.fa.fa-quote-left{
+    font-size:34px;
+    color:gainsboro;
+}
+.col-3 p{
+    font-size:12px;
+    margin:12px 0;
+}
