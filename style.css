@@ -99,3 +99,19 @@ p{
 .col-4 img{
     width: 100%;
 }
+
+.title{
+    text-align: center;
+    margin:0 auto 80px;
+    position:relative;
+    line-height:60px;
+    color: gray;
+}
+.title::after{
+    content:"";
+    background:lightgray;
+    width: 80px;
+    height:5px;
+    border-radius:5px;
+    position:absolute;
+}
