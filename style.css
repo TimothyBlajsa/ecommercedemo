@@ -170,4 +170,24 @@ small{
 .col-3 p{
     font-size:12px;
     margin:12px 0;
+    color: gray;
+}
+.testimonial .col-3 h3{
+    font-weight:600;
+    color:gray;
+    font-size:16px;
+}
+.brands{
+    margin:100px auto;
+}
+.col-5{
+    width:160px;
+}
+.col-5 img{
+    width:100%;
+    cursor:pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter:grayscale(0);
 }
